@@ -1,5 +1,9 @@
 import 'dart:math';
 
+class Box{
+  
+}
+
 int getNum(int min, int max){
   Random random = new Random();
   return min + random.nextInt(max-min);
