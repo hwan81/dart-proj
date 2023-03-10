@@ -1,7 +1,7 @@
 import 'dart:math';
 
 class Box{
-  
+
 }
 
 int getNum(int min, int max){
@@ -26,11 +26,6 @@ abstract class AttackType{
   void punch();
 }
 
-class Normal{
-  void hello(){
-    print('hello');
-  }
-}
 
 //플레이어 클래스 정의
 class User extends Unit {
